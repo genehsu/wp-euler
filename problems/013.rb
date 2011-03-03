@@ -6,7 +6,7 @@
 
 numbers = []
 while num = DATA.gets
-	numbers << num
+  numbers << num
 end
 
 
@@ -31,6 +31,11 @@ end
 puts sum.to_s[0..9]
 
 
+sum = 0
+numbers.each do |n|
+  sum += n.to_i
+end
+puts sum.to_s[0..9]
 
 __END__
 37107287533902102798797998220837590246510135740250
