@@ -6,7 +6,7 @@
 #
 # What is the 10001st prime number?
 
-require 'primes'
+require '../lib/primes'
 
 nth = 10001
 

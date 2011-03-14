@@ -23,7 +23,7 @@
 # divisors?
 
 require 'pp'
-require 'primes'
+require '../lib/primes'
 include Prime
 
 numfactors = 0

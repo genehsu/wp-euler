@@ -5,7 +5,7 @@
 #
 # Find the sum of all the primes below two million.
 
-require 'primes'
+require '../lib/primes'
 
 pit = Prime::Iterator.new
 
