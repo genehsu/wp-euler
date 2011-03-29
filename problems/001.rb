@@ -21,6 +21,6 @@ def sum_multiples_of_n_below_limit(limit,n)
 end
 Max = 1000-1
 sum = sum_multiples_of_n_below_limit(Max,3) \
-	+ sum_multiples_of_n_below_limit(Max,5) \
-	- sum_multiples_of_n_below_limit(Max,15)
+    + sum_multiples_of_n_below_limit(Max,5) \
+    - sum_multiples_of_n_below_limit(Max,15)
 puts sum
